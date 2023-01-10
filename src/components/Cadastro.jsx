@@ -49,7 +49,7 @@ function Cadastro() {
         }
         setListaUsuarios([...listaUsuarios, usuario])
         success();
-        // form.resetFields();
+        form.resetFields();
     };
 
     const onFinishFailed = (errorInfo) => {
