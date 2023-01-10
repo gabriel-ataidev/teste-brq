@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 1.2em 3em;
+    background-color: #004872;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: .4s ease-in-out;
+        font-family: 'Montserrat';
+        &:hover{
+          color: #cdebfa;
+        }
+    }
+}
+
+@media (max-width: '500px'){
+    footer{
+        flex-direction: column;
+    }
+}
